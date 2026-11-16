@@ -1,0 +1,13 @@
+Metric,Test,Test_family,Statistic,Degrees_of_freedom,p_value,Complete_repeats,Significant,Interpretation
+"accuracy","Friedman test","nonparametric",38.2732919254658,2,4.8872016218668e-09,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"sensitivity","Friedman test","nonparametric",74.8098159509202,2,5.69186865981663e-17,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"specificity","Friedman test","nonparametric",25.2478632478632,2,3.29227539132734e-06,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"ppv","Friedman test","nonparametric",13.6352941176471,2,0.00109429270182724,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"npv","Friedman test","nonparametric",54.568306010929,2,1.41463013815381e-12,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"f1","Friedman test","nonparametric",49.0601092896175,2,2.22194153307952e-11,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"auc","Randomized-block ANOVA","parametric",93.0283089251639,2,2.25546988202035e-23,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"auprc","Friedman test","nonparametric",22.12,2,1.57290694547894e-05,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"brier","Friedman test","nonparametric",77.56,2,1.43899734216017e-17,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"logloss","Friedman test","nonparametric",100,2,1.92874984796392e-22,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"ece","Randomized-block ANOVA","parametric",59.2484520841293,2,1.35814104944912e-17,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"selective_risk","Friedman test","nonparametric",59.3587786259542,2,1.28945145073119e-13,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."

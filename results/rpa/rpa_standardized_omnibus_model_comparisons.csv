@@ -1,0 +1,13 @@
+Metric,Test,Test_family,Statistic,Degrees_of_freedom,p_value,Complete_repeats,Significant,Interpretation
+"accuracy","Randomized-block ANOVA","parametric",46.4320286258197,2,6.52520687229227e-15,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"sensitivity","Friedman test","nonparametric",82.3891891891892,2,1.28651508630605e-18,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"specificity","Randomized-block ANOVA","parametric",1973.93805560619,2,6.70596502087961e-80,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"ppv","Randomized-block ANOVA","parametric",740.402618029236,2,7.11178083569941e-60,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"npv","Randomized-block ANOVA","parametric",75.7388777417114,2,1.30472243893916e-20,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"f1","Randomized-block ANOVA","parametric",71.8470137735932,2,6.16662712494236e-20,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"auc","Randomized-block ANOVA","parametric",1065.58577804671,2,3.24374389324463e-67,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"auprc","Randomized-block ANOVA","parametric",846.465732318631,2,1.47641465096958e-62,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"brier","Randomized-block ANOVA","parametric",85.1099391634226,2,3.74990799059305e-22,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"logloss","Randomized-block ANOVA","parametric",99.6065149611731,2,2.45331490694604e-24,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"ece","Friedman test","nonparametric",64.12,2,1.19266619615764e-14,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."
+"selective_risk","Friedman test","nonparametric",67.8638743455497,2,1.83462338770766e-15,50,TRUE,"Stability analysis across repeated CV; repeats reuse the same patients."

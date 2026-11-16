@@ -1,0 +1,3 @@
+Analysis_Set,Analysis_Label,n,n_no_appendicitis,n_appendicitis,prevalence_appendicitis
+"primary_imputed_all","Primary: all patients with RPA-trained imputation",301,71,230,0.764119601328904
+"complete_case","Sensitivity: complete cases",81,17,64,0.790123456790123

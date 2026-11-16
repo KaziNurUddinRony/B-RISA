@@ -1,0 +1,18 @@
+Item,Value
+Bayesian model implementation,"Embedded V7-equivalent BLR, genuine BLDA, and BART functions"
+RPA mean-vector source,/Users/rony/Publications/B-RISA/B_RISA_UQ_R/results/outcome_check/rpa_standardized_corrected_mean_vectors.csv
+RPA class-0 covariance source,/Users/rony/Publications/B-RISA/B_RISA_UQ_R/results/outcome_check/rpa_standardized_corrected_Sigma_Y0_no_appendicitis.csv
+RPA class-1 covariance source,/Users/rony/Publications/B-RISA/B_RISA_UQ_R/results/outcome_check/rpa_standardized_corrected_Sigma_Y1_appendicitis.csv
+Replicates,500
+Source sample size,780
+Target sample size,301
+Source prevalence,0.593589743589744
+Target prevalence,0.764119601328904
+Source neutrophil missingness,0.12949
+Target neutrophil missingness,0.7309
+Target conditions,No shift; prevalence shift; neutrophil-missingness shift; combined shift
+Pairing strategy,Common class-specific target pools; nested missingness uniforms within prevalence composition
+Preprocessing,Fit on source only; source medians/centering/scaling applied unchanged to all targets
+Models,"BLR, BLDA, BART"
+Posterior draws,300 per model
+Primary selective coverage,0.8
